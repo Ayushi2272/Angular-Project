@@ -1,0 +1,14 @@
+<div fxLayout="row" fxLayoutAlign="start center" mat-dialog-title>
+    <h5 class="headline m-0 modal-title" fxFlex="auto">Confirm</h5>
+  
+    <button class="close" type="button" (click)="dialogRef.close()"><span>+</span></button>
+</div>
+<mat-dialog-content>
+	<p>
+		{{message}}
+	</p>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+	<button mat-raised-button color="primary" (click)="yesBtnClicked()" tabindex="1">{{confirmButtonText}}</button>
+	<button mat-raised-button mat-dialog-close tabindex="-1" (click)="noBtnClicked()">{{cancelButtonText}}</button>
+</mat-dialog-actions>

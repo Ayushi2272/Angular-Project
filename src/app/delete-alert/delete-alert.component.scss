@@ -1,0 +1,26 @@
+$modal-close-btn-color:#666666;
+$modal-h5-color:#33384E;
+.close {
+    color: $modal-close-btn-color;
+    border: inherit;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 100;
+    background-color: inherit;
+    font-family: "Roboto", sans-serif;
+    transform: rotate(-45deg);
+    /* Safari */
+    -webkit-transform: rotate(-45deg);
+    /* Firefox */
+    -moz-transform: rotate(-45deg);
+    /* IE */
+    -ms-transform: rotate(-45deg);
+    /* Opera */
+    -o-transform: rotate(-45deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+h5.modal-title{ font-size: 20px; line-height: 20px; font-weight: 500; color:$modal-h5-color; padding: 0; margin: 0 }
+
